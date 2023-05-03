@@ -2,8 +2,8 @@
 //var connectionUserCount = new signalR.HubConnectionBuilder().withUrl("/hubs/userCount").build();
 var connectionUserCount = new signalR.HubConnectionBuilder()
     //.configureLogging(signalR.LogLevel.Information)
-    .withUrl("/hubs/userCount", signalR.HttpTransortType.WebSockets).build();
-//signalR.HttpTransortType:
+    .withUrl("/hubs/userCount", signalR.HttpTransportType.WebSockets).build();
+//signalR.HttpTransportType:
 //.ServerSentEvents
 //.LongPolling = loop requests
 //.WebSockets
