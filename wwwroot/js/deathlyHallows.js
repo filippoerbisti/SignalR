@@ -18,7 +18,7 @@ connectionDeathlyHallows.on("updateDeathlyHallowsCount", (cloak, stone, wand) =>
 
 //start connection
 function fulfilled() {
-    connectionDeathlyHallows.invoke("GetRacetatus").then((raceCounter) => {
+    connectionDeathlyHallows.invoke("GetRaceStatus").then((raceCounter) => {
         cloakSpan.innerText = raceCounter.cloak.toString();
         stoneSpan.innerText = raceCounter.stone.toString();
         wandSpan.innerText = raceCounter.wand.toString();

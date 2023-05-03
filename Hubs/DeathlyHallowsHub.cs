@@ -4,7 +4,7 @@ namespace SignalRSample.Hubs
 {
     public class DeathlyHallowsHub : Hub
     {
-        public Dictionary<string, int> GetRacetatus()
+        public Dictionary<string, int> GetRaceStatus()
         {
             return SD.DeathlyHallowRace;
         }
