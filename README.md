@@ -1,2 +1,2 @@
 # SignalR
- SignalR C#
+ Sample SignalR C#
